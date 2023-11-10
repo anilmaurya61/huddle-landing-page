@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --body-m: "Open Sans";
+    --heading-m: "Poppins";
+
+    /* font sizes */
+    --body-m-size: 1.125rem;
+    --heading-m-size: 2.5rem;
+    --heading-xl-size: 6rem;
+
+    /* Colors */
+    --color-grey:#808E9A;
+    --color-white: #ffffff;
+    --color-midnightBlue: #00252E;
+    --color-sky:#EDFBFF;
+    --color-black:#00252E;
+    --color-pink:#FF52C1;
+}
+
+
+
