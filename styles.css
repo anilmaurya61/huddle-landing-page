@@ -238,7 +238,10 @@ figure div h1 {
     display: flex;
     gap: 1rem;
 }
-
+.contact-list ul li > img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
+}
 .social-links ul {
     padding-top: 2.5rem;
     list-style: none;
