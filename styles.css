@@ -255,7 +255,15 @@ figure div h1 {
 .social-links ul li:hover {
     border: 1px solid var(--color-pink);
 }
-
+.facebook-icon:hover{
+    content: url('./Images/icon-facebook-hover.svg')
+}
+.twitter-icon:hover{
+    content: url('./Images/icon-twitter-hover.svg');
+}
+.instagram-icon:hover{
+    content: url('./Images//icon-instagram-hover.svg');
+}
 .social-links ul li img {
     width: 1.9515rem;
     height: 1.9375rem;
