@@ -94,7 +94,6 @@ nav {
 
 .getStarted:hover {
     background-color: #FF9ADB;
-    ;
 }
 
 /* ................About........... */
@@ -105,7 +104,7 @@ nav {
 
 .about {
     margin-top: 2rem;
-    height: 27.5rem;
+    min-height: 27.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
     border-radius: 0.5rem;
@@ -168,11 +167,12 @@ nav {
 }
 
 /* ..................................... */
-figure{
+figure {
     width: 100%;
     position: relative;
     z-index: 1;
 }
+
 figure div {
     width: 50rem;
     height: 17.5rem;
@@ -185,6 +185,15 @@ figure div {
     align-items: center;
     gap: 2rem;
     margin: 6rem auto -6rem auto;
+}
+
+figure div h1 {
+    color: #00252E;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.75rem;
 }
 
 /* ................Footer................ */
@@ -264,5 +273,129 @@ figure div {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 569px)  and (max-width: 979px) {
+    html{
+        font-size: 12px;
+    }
+    figure div {
+        width: 40rem;
+    }
+} 
+@media screen and (max-width: 568px) {
+    .home {
+        min-height: 45.0625rem;
+    }
 
-@media screen and (min-width: 768px) {}
+    nav {
+        padding: 3rem 2rem 4.44rem 2rem;
+    }
+
+    nav img {
+        width: 6rem;
+        height: 1.5rem;
+    }
+
+    .try-it-free {
+        width: 6rem;
+        height: 1.5rem;
+        border-radius: 0.75rem;
+        background: #FFF;
+        box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .getStarted {
+        width: 15rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+        border-radius: 1.25rem;
+        background: #FF52C1;
+        box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+    }
+
+    .main {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main div {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main div p {
+        width: 19rem;
+        color: #00252E;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    .main div h1 {
+        color: #00252E;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.25rem;
+    }
+
+    .img {
+        margin: 1rem;
+        width: 18.5rem;
+        height: 13.0625rem;
+    }
+
+    /* .......About Section........... */
+    .container {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .about-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .about-details>div {
+        text-align: center;
+    }
+
+    figure div {
+        width: 19.5rem;
+        height: 11rem;
+    }
+
+    figure div h1 {
+        color: #00252E;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.875rem;
+    }
+
+    .image-container {
+        width: 14.75rem;
+        height: 12.125rem;
+    }
+
+    /* ................Footer.......... */
+    .footer-item {
+        flex-direction: column;
+        padding: 9rem 4.88rem 4rem 2.5rem;
+        gap: 0rem;
+    }
+
+    .footer-item>* {
+        min-height: 8.125rem;
+    }
+}
