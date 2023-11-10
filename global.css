@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', 'Poppins', sans-serif;
 }
 
 body {
@@ -20,13 +21,10 @@ body {
     --heading-xl-size: 6rem;
 
     /* Colors */
-    --color-grey:#808E9A;
+    --color-grey: #808E9A;
     --color-white: #ffffff;
     --color-midnightBlue: #00252E;
-    --color-sky:#EDFBFF;
-    --color-black:#00252E;
-    --color-pink:#FF52C1;
+    --color-sky: #EDFBFF;
+    --color-black: #00252E;
+    --color-pink: #FF52C1;
 }
-
-
-
