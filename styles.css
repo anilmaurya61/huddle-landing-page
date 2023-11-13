@@ -250,27 +250,15 @@ nav {
     cursor: pointer;
 }
 
-.social-links ul li {
-    border: 1px solid white;
-    border-radius: 100%;
+.social-links ul li img {
+    width: 2.9515rem;
+    height: 2.9375rem;
+    margin: 0.1rem;
 }
 
-.social-links ul li:hover {
-    border: 1px solid var(--color-pink);
-}
-.facebook-icon:hover{
-    content: url('./Images/icon-facebook-hover.svg')
-}
-.twitter-icon:hover{
-    content: url('./Images/icon-twitter-hover.svg');
-}
-.instagram-icon:hover{
-    content: url('./Images//icon-instagram-hover.svg');
-}
-.social-links ul li img {
-    width: 1.9515rem;
-    height: 1.9375rem;
-    margin: 0.3rem;
+.social-links ul li img:hover {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(310deg)
+		brightness(118%) contrast(119%);
 }
 
 .footer-links ul {
