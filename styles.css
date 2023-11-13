@@ -170,13 +170,13 @@ nav {
 }
 
 /* ..................................... */
-figure {
+.model {
     width: 100%;
     position: relative;
     z-index: 1;
 }
 
-figure div {
+.model div {
     width: 50rem;
     height: 17.5rem;
     background-color: var(--color-white);
@@ -190,7 +190,7 @@ figure div {
     margin: 6rem auto -6rem auto;
 }
 
-figure div h1 {
+.model div h1 {
     color: #00252E;
     font-family: Poppins;
     font-size: 2rem;
@@ -291,7 +291,7 @@ figure div h1 {
     html{
         font-size: 12px;
     }
-    figure div {
+    .model div {
         width: 40rem;
     }
 } 
@@ -383,12 +383,12 @@ figure div h1 {
         text-align: center;
     }
 
-    figure div {
+    .model div {
         width: 19.5rem;
         height: 11rem;
     }
 
-    figure div h1 {
+    .model div h1 {
         color: #00252E;
         text-align: center;
         font-family: Poppins;
