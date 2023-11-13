@@ -373,7 +373,7 @@ nav {
     }
 
     .about-details {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 2rem;
